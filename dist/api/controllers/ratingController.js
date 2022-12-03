@@ -16,7 +16,7 @@ exports.scrape = exports.rate = exports.remove = exports.update = exports.detail
 const express_async_handler_1 = __importDefault(require("express-async-handler"));
 const couponModel_1 = require("../models/couponModel");
 const ratingModel_1 = require("../models/ratingModel");
-const clientError_1 = __importDefault(require("../../config/clientError"));
+const clientError_1 = __importDefault(require("../../config/ClientError"));
 const create = (0, express_async_handler_1.default)((req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const rating = req.body;
     if (!rating.like && rating.comment.trim().length < 1)

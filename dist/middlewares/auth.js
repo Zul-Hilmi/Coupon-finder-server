@@ -18,7 +18,7 @@ const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const userModel_1 = require("../api/models/userModel");
 const mongoose_1 = require("mongoose");
 const couponModel_1 = require("../api/models/couponModel");
-const clientError_1 = __importDefault(require("../config/clientError"));
+const clientError_1 = __importDefault(require("../config/ClientError"));
 //create user session and store them in the cookie
 const authenticate = (0, express_async_handler_1.default)((req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     if (!req.cookies.token)

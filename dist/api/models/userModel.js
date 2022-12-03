@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.User = void 0;
 const mongoose_1 = require("mongoose");
 const bcrypt_1 = __importDefault(require("bcrypt"));
-const clientError_1 = __importDefault(require("../../config/clientError"));
+const clientError_1 = __importDefault(require("../../config/ClientError"));
 var Roles;
 (function (Roles) {
     Roles["OWNER"] = "owner";

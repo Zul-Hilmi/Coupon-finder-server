@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const nodemailer_1 = __importDefault(require("nodemailer"));
-const clientError_1 = __importDefault(require("../clientError"));
+const clientError_1 = __importDefault(require("../ClientError"));
 function sendVerificationEmail(userId, email) {
     const baseUrl = process.env.HOSTNAME;
     const route = "/user/create";

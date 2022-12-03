@@ -19,7 +19,7 @@ const mail_1 = __importDefault(require("../../config/services/mail"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const mongoose_1 = require("mongoose");
 const couponModel_1 = require("../models/couponModel");
-const clientError_1 = __importDefault(require("../../config/clientError"));
+const clientError_1 = __importDefault(require("../../config/ClientError"));
 const ratingModel_1 = require("../models/ratingModel");
 const email = (0, express_async_handler_1.default)((req, res) => __awaiter(void 0, void 0, void 0, function* () {
     const user = req.body;

@@ -20,7 +20,7 @@ const scrape_1 = require("../../config/services/scrape");
 const puppeteer_1 = __importDefault(require("puppeteer"));
 const request_1 = __importDefault(require("request"));
 const userModel_1 = require("../models/userModel");
-const clientError_1 = __importDefault(require("../../config/clientError"));
+const clientError_1 = __importDefault(require("../../config/ClientError"));
 const create = (0, express_async_handler_1.default)((req, res) => __awaiter(void 0, void 0, void 0, function* () {
     var _a;
     if (((_a = req.session) === null || _a === void 0 ? void 0 : _a.user.role) == "shopper")

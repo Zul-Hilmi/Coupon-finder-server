@@ -20,7 +20,7 @@ const errorHandler_1 = __importDefault(require("./middlewares/errorHandler"));
 const userModel_1 = require("./api/models/userModel");
 const cookie_parser_1 = __importDefault(require("cookie-parser"));
 const cors_1 = __importDefault(require("cors"));
-const clientError_1 = __importDefault(require("./config/clientError"));
+const clientError_1 = __importDefault(require("./config/ClientError"));
 dotenv_1.default.config();
 (0, db_1.default)();
 const app = (0, express_1.default)();
